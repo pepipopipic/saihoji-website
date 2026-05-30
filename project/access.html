@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>アクセス・お問い合わせ ｜ 清水山 西方寺</title>
+<meta name="description" content="清水山 西方寺へのアクセス。和歌山県和歌山市岩橋1703。電車・お車での行き方、駐車場のご案内、お問い合わせフォーム。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-in">
+    <a class="brand" href="index.html"><img src="assets/01_logo.png" alt="清水山 西方寺"></a>
+    <nav class="nav">
+      <a href="about.html">西方寺について</a>
+      <a href="hoyo.html">法要・納骨・永代経</a>
+      <a href="index.html#life">西方寺の暮らし</a>
+      <a href="index.html#precinct">境内のご案内</a>
+      <a href="index.html#gyoji">年間行事</a>
+      <a href="index.html#news">お知らせ</a>
+      <a href="access.html">アクセス</a>
+    </nav>
+    <a class="header-cta" href="access.html#contact">お問い合わせ</a>
+    <button class="burger" aria-label="メニュー"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="drawer">
+  <button class="drawer-close" aria-label="閉じる">×</button>
+  <a href="about.html">西方寺について</a>
+  <a href="hoyo.html">法要・納骨・永代経</a>
+  <a href="index.html#life">西方寺の暮らし</a>
+  <a href="index.html#precinct">境内のご案内</a>
+  <a href="index.html#gyoji">年間行事</a>
+  <a href="index.html#news">お知らせ</a>
+  <a href="access.html">アクセス</a>
+  <a href="access.html#contact">お問い合わせ</a>
+</div>
+
+<section class="page-hero" data-screen-label="アクセス">
+  <img class="bg" src="assets/21_photo_temple_gaikan.png" alt="西方寺 外観">
+  <div class="ph-in">
+    <span class="en">ACCESS</span>
+    <h1>アクセス</h1>
+  </div>
+</section>
+<div class="crumb"><div class="wrap"><a href="index.html">ホーム</a> ／ <span>アクセス・お問い合わせ</span></div></div>
+
+<!-- access -->
+<section class="sec greet" data-screen-label="所在地">
+  <div class="wrap">
+    <div class="greet-grid" style="grid-template-columns:1.1fr 0.9fr;">
+      <div class="acc-map reveal" style="margin:0;">
+        <iframe src="https://maps.google.com/maps?q=%E5%92%8C%E6%AD%8C%E5%B1%B1%E7%9C%8C%E5%92%8C%E6%AD%8C%E5%B1%B1%E5%B8%82%E5%B2%A9%E6%A9%8B1703&output=embed" style="height:380px;" loading="lazy" title="西方寺 地図"></iframe>
+      </div>
+      <div class="greet-copy reveal d1">
+        <span class="eyebrow">ACCESS</span>
+        <h2 class="sec-title" style="font-size:28px;">清水山 西方寺</h2>
+        <p class="acc-addr">〒640-8301<br>和歌山県和歌山市岩橋1703</p>
+        <div class="acc-row">
+          <img src="assets/57_icon_train.png" alt="">
+          <div><b>電車でお越しの方</b><span>JR和歌山線「田井ノ瀬駅」より徒歩約15分</span></div>
+        </div>
+        <div class="acc-row">
+          <img src="assets/56_icon_car.png" alt="">
+          <div><b>お車でお越しの方</b><span>阪和自動車道「和歌山IC」より約15分</span></div>
+        </div>
+        <div class="acc-row">
+          <img src="assets/58_icon_parking.png" alt="">
+          <div><b>駐車場</b><span>境内に駐車場がございます（約20台・無料）</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact form -->
+<section class="sec services" id="contact" data-screen-label="お問い合わせフォーム">
+  <div class="wrap prose">
+    <div class="reveal" style="text-align:center;">
+      <span class="eyebrow">CONTACT</span>
+      <h2 class="sec-title" style="margin-bottom:14px;">お問い合わせ</h2>
+      <p style="color:var(--ink-soft);max-width:38em;margin:0 auto 14px;">法要・納骨・永代経のご相談、ご法事の日程など、お気軽にお問い合わせください。お電話（073-422-0321／9:00〜16:00）でも承っております。</p>
+    </div>
+    <form class="reveal d1" style="background:#fff;border-radius:6px;box-shadow:var(--shadow-sm);padding:40px;margin-top:30px;" onsubmit="event.preventDefault();this.querySelector('.thanks').style.display='block';">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px;">
+        <label class="fld"><span>お名前 <em>必須</em></span><input type="text" required placeholder="山田 太郎"></label>
+        <label class="fld"><span>ふりがな</span><input type="text" placeholder="やまだ たろう"></label>
+        <label class="fld"><span>メールアドレス <em>必須</em></span><input type="email" required placeholder="example@mail.com"></label>
+        <label class="fld"><span>お電話番号</span><input type="tel" placeholder="073-000-0000"></label>
+      </div>
+      <label class="fld" style="margin-top:22px;display:block;"><span>お問い合わせ種別</span>
+        <select>
+          <option>法要について</option>
+          <option>納骨・合同墓について</option>
+          <option>永代経について</option>
+          <option>その他</option>
+        </select>
+      </label>
+      <label class="fld" style="margin-top:22px;display:block;"><span>お問い合わせ内容 <em>必須</em></span><textarea rows="5" required placeholder="ご相談内容をご記入ください"></textarea></label>
+      <div style="text-align:center;margin-top:30px;">
+        <button type="submit" class="btn btn-primary" style="border:0;">送信する <span class="arw">→</span></button>
+      </div>
+      <p class="thanks" style="display:none;text-align:center;color:var(--purple);margin-top:20px;font-family:var(--serif);">お問い合わせありがとうございます。追ってご連絡いたします。</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="foot-in">
+    <div class="foot-brand">
+      <img src="assets/64_footer_logo.png" alt="清水山 西方寺">
+      <p>浄土真宗本願寺派　清水山 西方寺<br>〒640-8301 和歌山県和歌山市岩橋1703<br>TEL. 073-422-0321 / FAX. 073-422-3921</p>
+    </div>
+    <div class="foot-col">
+      <h5>ご案内</h5>
+      <a href="about.html">西方寺について</a>
+      <a href="hoyo.html">法要・納骨・永代経</a>
+      <a href="index.html#life">西方寺の暮らし</a>
+      <a href="index.html#precinct">境内のご案内</a>
+    </div>
+    <div class="foot-col">
+      <h5>メニュー</h5>
+      <a href="index.html#gyoji">年間行事</a>
+      <a href="index.html#news">お知らせ</a>
+      <a href="access.html">アクセス</a>
+      <a href="access.html#contact">お問い合わせ</a>
+    </div>
+  </div>
+  <div class="foot-bottom">© 2024 西方寺 All Rights Reserved.</div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
